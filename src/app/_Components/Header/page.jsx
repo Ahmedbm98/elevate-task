@@ -6,8 +6,8 @@ export default function Header() {
         data-aos="zoom-in"
       >
         <h1 className="max-xl:text-3xl  text-5xl font-semibold  text-gray-900 text-center ">
-          👋 Hi <span className="text-maincolor my-animate ">Route Tech</span>{" "}
-          This is a Job Fair Task
+          👋 Hi <span className="text-maincolor my-animate ">Elevate Tech</span>{" "}
+          This is a Task
           <span>,,</span>
         </h1>
       </header>

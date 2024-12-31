@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Elevate Task",
-  description: ""
+  description:
+    "This is a task for Elevate Tech to show Products and Details of the Product with Next.js"
 };
 
 export default function RootLayout({ children }) {
