@@ -1,0 +1,32 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Roboto Flex", serif; */
+  /* font-family: c; */
+}
+
+/* Start Header Section */
+header h1 span {
+  font-family: "Playwrite BE VLG", cursive;
+}
+
+@keyframes ping {
+
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.my-animate {
+  animation: ping 3s linear infinite;
+}
+
+/* End Header Section */
